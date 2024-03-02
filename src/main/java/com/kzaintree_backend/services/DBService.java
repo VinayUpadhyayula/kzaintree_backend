@@ -46,7 +46,6 @@ public class DBService {
     {
         System.out.println("Username is {}"+username);
         UserDetails userDetails = userDetailsRepository.findByUsername(username);
-        System.out.println(userDetails.getId());
         if(null != userDetails)
         {
             //return Optional.ofNullable(userItemsRepository.findAll());
