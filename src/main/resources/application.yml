@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://vupadhyayula:MRmodYk0mRX60OjE@kaizntree.pwj2war.mongodb.net/kaizntree?retryWrites=true&w=majority
+      database: kaizntree
+server:
+  port: 8081
